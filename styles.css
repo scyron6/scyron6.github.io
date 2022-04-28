@@ -65,6 +65,8 @@ nav {
 
 .workstation {
     margin-top: 60px;
+    max-width: 100%;
+    height: auto;
 }
 
 .message {
@@ -103,6 +105,25 @@ nav {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1),
     0 6px 6px rgba(0, 0, 0, 0.1);
     display: flex;
+}
+
+@media (max-width: 700px) {
+    .skills {
+        flex-direction: column;
+    }
+
+    .skill {
+        border: none;
+        border-bottom: 1px solid lightgray;
+    }
+
+    .skill:last-of-type {
+        border-bottom: none;
+    }
+
+    .message h2 {
+        width: 90%;
+    }
 }
 
 .skill {
@@ -190,6 +211,17 @@ nav {
     position: relative;
 }
 
+@media (max-width: 1024px) {
+    .project {
+        max-width: 50%;
+    }
+}
+
+@media (max-width: 600px) {
+    .project {
+        max-width: 100%;
+    }
+}
 .project:hover {
     transform: scale(1.05);
 }
@@ -215,7 +247,7 @@ nav {
     text-align: center;
     padding: 24px 16px;
     font-size: 18px;
-    transition: ease-in .2s;
+    transition: ease-in .3s;
 }
 
 .project:hover .overlay {
