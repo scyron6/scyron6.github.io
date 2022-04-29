@@ -14,11 +14,13 @@
   <body>
     <nav>
       <i class="logo fa-solid fa-s"></i>
-      <button class="hello">Say Hello</button>
+      <button class="hello btn btn-purple">Say Hello</button>
     </nav>
     <section class="landing">
-      <h1>Full-Stack Developer, Web3 Enthusiast</h1>
-      <h2>
+      <h1 class="main-title mb-24 dark">
+        Full-Stack Developer, Web3 Enthusiast
+      </h1>
+      <h2 class="subtitle">
         I code bots to simplify tasks and save you time. Then I put it together
         with a fantastic user experience.
       </h2>
@@ -26,7 +28,7 @@
       <img class="workstation" src="workstation.svg" alt="workstation" />
     </section>
     <section class="message">
-      <h1 class="intro">Hi, I'm Stephen. Nice to meet you.</h1>
+      <h1 class="intro mb-24 title">Hi, I'm Stephen. Nice to meet you.</h1>
       <h2 class="subtitle">
         Since beginning my journey as a developer nearly 2 years ago, I've
         created web scrapers, simple web pages, and full-stack web applications
@@ -38,52 +40,54 @@
     <section class="white">
       <div class="skills">
         <div class="skill">
-          <i class="fa-solid fa-laptop-code"></i>
-          <h1>Web Scraping</h1>
-          <p>
+          <i class="purple fa-solid fa-laptop-code"></i>
+          <h1 class="dark subtitle bold mb-24">Web Scraping</h1>
+          <p class="text dark">
             I have experience building web scrapers for a variety of sites
             including: LinkedIn, UPS, and Ricochet.
           </p>
-          <p class="heading">Languages:</p>
-          <p class="list">Python</p>
+          <p class="text mt-24 purple">Languages:</p>
+          <p class="text m-0 dark">Python</p>
         </div>
         <div class="skill">
-          <i class="fa-solid fa-pencil"></i>
-          <h1>Front-End Development</h1>
-          <p>
+          <i class="purple fa-solid fa-pencil"></i>
+          <h1 class="dark subtitle bold mb-24">Front-End Development</h1>
+          <p class="text">
             I enjoy building simple yet beatiful user experiences that will keep
             customers coming back.
           </p>
-          <p class="heading">Languages:</p>
-          <p class="list">HTML, CSS, JavaScript, React</p>
+          <p class="text mt-24 purple">Languages:</p>
+          <p class="text m-0">HTML, CSS, JavaScript, React</p>
         </div>
         <div class="skill">
-          <i class="fa-solid fa-wallet"></i>
-          <h1>Web3</h1>
-          <p>
+          <i class="purple fa-solid fa-wallet"></i>
+          <h1 class="dark subtitle bold mb-24">Web3</h1>
+          <p class="text">
             I have a passion for Web3 development and have created my own NFT
             Collection and DAO.
           </p>
-          <p class="heading">Languages:</p>
-          <p class="list">Python, Solidity</p>
+          <p class="text mt-24 purple">Languages:</p>
+          <p class="text m-0">Python, Solidity</p>
         </div>
       </div>
 
       <div class="projects">
-        <h1>My Recent Work</h1>
-        <h2>Here are a few projects I've worked on recently.</h2>
+        <h1 class="title bold dark">My Recent Work</h1>
+        <h2 class="subtitle dark">
+          Here are a few projects I've worked on recently.
+        </h2>
         <div class="project-container">
           <div class="project">
             <img src="assets/beachbumz.png" alt="project" />
             <div class="overlay">
-              <p class="description">
+              <p class="mb-24">
                 NFT Collection built using React and Solidity. Deployed on
                 Rinkeby blockchain.
               </p>
               <a
                 href="https://scyron6.github.io/beachbumz"
                 target="_blank"
-                class="link"
+                class="btn btn-white"
                 >View Site</a
               >
             </div>
@@ -91,14 +95,14 @@
           <div class="project">
             <img src="assets/wave.png" alt="project" />
             <div class="overlay">
-              <p class="description">
+              <p class="mb-24">
                 Simple message board Web3 application build using Solidity and
                 React
               </p>
               <a
                 href="https://scyron6.github.io/wave"
                 target="_blank"
-                class="link"
+                class="btn btn-white"
                 >View Site</a
               >
             </div>
@@ -106,7 +110,7 @@
           <div class="project">
             <img src="assets/project0.png" alt="project" />
             <div class="overlay">
-              <p class="description">
+              <p class="mb-24">
                 Contributor to React open source code. Submitted and merged a
                 pull request to fix a bug within the eslint plugin.
               </p>
@@ -115,14 +119,14 @@
           <div class="project">
             <img src="assets/project1.png" alt="project" />
             <div class="overlay">
-              <p class="description">
+              <p class="mb-24">
                 Simple bot to scrape LinkedIn for email addresses and output to
                 excel file.
               </p>
               <a
                 href="https://github.com/scyron6/linkedin_scraper"
                 target="_blank"
-                class="link"
+                class="btn btn-white"
                 >View Code</a
               >
             </div>
@@ -130,14 +134,14 @@
           <div class="project">
             <img src="assets/project2.png" alt="project" />
             <div class="overlay">
-              <p class="description">
+              <p class="mb-24">
                 Full-stack application for Karbon users to receive detailed
                 timesheet summaries.
               </p>
               <a
                 href="https://yourtimebot.herokuapp.com"
                 target="_blank"
-                class="link"
+                class="btn btn-white"
                 >View Site</a
               >
             </div>
@@ -145,7 +149,7 @@
           <div class="project">
             <img src="assets/project3.jpeg" alt="project" />
             <div class="overlay">
-              <p class="description">
+              <p class="mb-24">
                 Chrome Extension for salesmen using Ricochet to automatically
                 answer incoming calls.
               </p>
@@ -154,14 +158,14 @@
           <div class="project">
             <img src="assets/project4.png" alt="project" />
             <div class="overlay">
-              <p class="description">
+              <p class="mb-24">
                 Simple React & Redux application for users to do some
                 breathwork.
               </p>
               <a
                 href="https://scyron6.github.io/just-breathe"
                 target="_blank"
-                class="link"
+                class="btn btn-white"
                 >View Site</a
               >
             </div>
@@ -169,11 +173,11 @@
           <div class="project">
             <img src="assets/project5.png" alt="project" />
             <div class="overlay">
-              <p class="description">Simple calculator built using React</p>
+              <p class="mb-24">Simple calculator built using React</p>
               <a
                 href="https://scyron6.github.io/react_calculator"
                 target="_blank"
-                class="link"
+                class="btn btn-white"
                 >View Site</a
               >
             </div>
